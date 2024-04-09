@@ -12,6 +12,5 @@ object casaDeMadera {
 
 
 object casaDePaja {
-	
-	
+		
 }

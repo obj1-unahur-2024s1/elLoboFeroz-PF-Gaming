@@ -18,6 +18,5 @@ object feroz {
 	method sufrirCrisis(){
 		peso = 10
 	}
-
 	
 }
