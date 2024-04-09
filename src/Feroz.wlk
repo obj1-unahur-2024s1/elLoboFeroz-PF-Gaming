@@ -1,4 +1,5 @@
 import alimentos.*
+import abuelita.*
 
 object feroz {
 	var peso = 10
