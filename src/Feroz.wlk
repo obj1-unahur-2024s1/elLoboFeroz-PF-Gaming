@@ -9,8 +9,9 @@ object feroz {
 	
 	
 	method comer(alimento){
-		feroz.peso = feroz.peso += alimento.peso
-}
+		peso = peso + peso.alimento
+
+	}
 	
 	
 	method sufrirCrisis(){
