@@ -2,21 +2,31 @@ import alimentos.*
 import abuelita.*
 
 object feroz {
-	var peso = 10
-
-	method estaSaludable(){
-		return peso > 20 && peso < 150
-	}
+	var pesoActual = 10
 	
+	method pesoActual() = pesoActual
 	
 	method comer(alimento){
-		peso = peso + peso.alimento
-
+	pesoActual += alimento.peso() * 0.1
 	}
 	
+	method comer (cantidad, alimento){
+		pesoActual += (alimento.pesoTotal() * 0.1) * cantidad
 	
+	}
+	
+		method estaSaludable(){
+		return pesoActual > 20 && pesoActual < 150
+	}
+	
+		
 	method sufrirCrisis(){
-		peso = 10
+		pesoActual = 10
 	}
+	
+	method correrHacia(lugar){
+		
+	}
+	
 	
 }
