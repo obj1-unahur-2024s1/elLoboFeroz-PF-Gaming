@@ -1,13 +1,14 @@
 
 
 object hamburguesa {
-	var peso = 20
+	method peso() = 20
 	
 	
 	}
 		
 object manzana {
-	var peso = 0.2
+	method peso() = 0.2
 	
 }
-	
+
+ 

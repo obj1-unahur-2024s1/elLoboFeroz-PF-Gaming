@@ -2,7 +2,7 @@ import alimentos.*
 import abuelita.*
 
 object feroz {
-	var pesoActual = 10
+	var pesoActual =110
 	
 	method pesoActual() = pesoActual
 	
